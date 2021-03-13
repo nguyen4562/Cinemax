@@ -1,0 +1,324 @@
+﻿.nav {
+    display: flow-root;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:100;
+}
+
+.nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    align-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav a:hover {
+    background: #fab813;
+    color: black;
+}
+
+.nav img {
+    width: 10%;
+    float: left;
+    padding: 0.7%;
+}
+
+
+.thumbnail {
+    /* The image used */
+    background-image: url("https://i.pinimg.com/originals/30/aa/98/30aa98f9417c234aba1e3bc468a5045b.jpg");
+    /* Set a specific height */
+    min-height: 300px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 60px auto;
+}
+
+.thumbnail1 {
+    /* The image used */
+    background-image: url("https://www.wallpaperflare.com/static/436/228/997/movies-mad-max-the-dark-knight-interstellar-movie-wallpaper.jpg");
+}
+
+
+#nav_3{
+  min-height: 500px;
+}
+
+.block-movie{
+    margin: auto auto;
+    width: 75%;
+    height: 100%;
+    display: flow-root;
+    text-align: center;
+}
+
+.movie{
+    position: relative;
+    display: inline-block;
+    width: 410px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 20px 8px black;
+}
+
+.available-hours{
+    position: absolute;
+    top: 10px;
+    width: 210px;
+    height: 280px;
+    background-color: black;
+    transition: all 0.8s;
+}
+
+
+.available-hours h3, .available-hours p, .available-hours h4, .available-hours h6{
+  color: white;
+}
+
+table{
+    width: 100%;
+    color: white;
+    font-size: 14px;
+}
+
+td{
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+
+.button1{
+    position: absolute;
+    left: 197px;
+    top: 125px;
+    height: 40px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.arrow{
+    position: absolute;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    padding: 4px;
+    top: 15px;
+    left: 7px;
+    transform: rotate(-45deg);
+}
+
+.poster{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-color: blue; /**/
+}
+
+button{
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.poster img{
+    display: block;
+    width: 200px;
+    height: 300px;
+}
+
+.available-hours:hover{
+    transform: translate(200px, 0);
+}
+
+.available-hours:hover .arrow{
+    transform: rotate(135deg);
+}
+
+
+.title {
+    font-size: 400%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+.hr_white {
+    border: 2px solid white;
+    margin: 1% 10% 1% 10%;
+}
+
+
+.content1 {
+    margin: 0px 10% 0 10%;
+    z-index: 1;
+}
+
+.booking-1 {
+    margin: 0;
+}
+
+.price {
+    width: 100%;
+    margin:0;
+    color: white;
+    background-color: black;
+}
+
+.tbprice , .tbprice th, .tbprice td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+ .tbprice th, .tbprice td {
+    height: 50px;
+    padding: 15px;
+    text-align: left;
+}
+
+.tbprice {
+    margin-right: 10%;
+    margin-left:10%;
+    width:80%;
+    height: 50%;
+}
+
+.tran {
+    width : 100%;
+    height:250px;
+}
+
+.price h1 {
+    margin: 0px 10% 0 10%;
+    font-size: 30px;
+}
+
+.tbprice {
+    color: white;
+}
+
+.grid_2_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid_2_items span {
+    position: absolute;
+    display: inline-block;
+    border: 1px solid #fab813;
+    text-align: end;
+    background-color: #fab813;
+    padding:0.9%;
+}
+
+.grid_2_items img{
+    height:20%;
+    width:50%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    background-color: #fab813;
+    font-size: 10px;
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover, a:active {
+    text-decoration: none;
+    color: black
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.booking {
+    max-width: 800px;
+    margin: 10% auto;
+    background-color: #1b2125;
+    color:white;
+}
+
+input[type=text] {
+    background-color: #31363c;
+    color: #1b2125;
+    border: none;
+}
+
+.left {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flex_horizone{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.button {
+    background-color: #fab813;
+    border: none;
+    color: white;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width:100%;
+}
+
+.booking-flex {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.booking-thumb {
+    background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y2luZW1hfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80");
+}
